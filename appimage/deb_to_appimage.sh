@@ -6,8 +6,8 @@ ARCH="$(uname -m)"
 SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
 REPO_DIR="${SCRIPT_DIR}/../"
 
-LIB4BIN="https://raw.githubusercontent.com/VHSgunzo/sharun/9a6124a82595a835b07ea7fad7301be736e5a39b/lib4bin"
-URUNTIME="https://github.com/VHSgunzo/uruntime/releases/latest/download/uruntime-appimage-dwarfs-${ARCH}"
+LIB4BIN="https://raw.githubusercontent.com/galister/test/refs/heads/main/lib4bin"
+URUNTIME="https://github.com/galister/test2/releases/latest/download/uruntime-appimage-dwarfs-${ARCH}"
 UPINFO="gh-releases-zsync|$(echo "$GITHUB_REPOSITORY" | tr '/' '|')|latest|*$ARCH.AppImage.zsync"
 
 cd "${SCRIPT_DIR}"
